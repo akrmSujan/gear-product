@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .manrope-footer {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 700px ;
+    font-style: normal;
+  }
+/* shared-style */
+.display-flex{
+    display: flex;
+}
+.primary-btn{
+    width: 196px;
+height: 44px;
+border-radius: 41px;
+background: rgb(224, 44, 109);
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+border: none;
+cursor: pointer;
+margin-top: 20px;
+transition: transform 1s ,background-color 1s ;
+}
+.description{
+    color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+}
+.collection-head{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+}
+.primary-btn:hover{
+transform: scaleX(1.05) scaleY(1.1);
+background-color: aqua;
+}
+/* styling for nav bar */
+.influencer-heading{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+}
+.list-style{
+    list-style: none;
+    gap: 30px;
+}
+.navigation{
+    justify-content: space-around;
+    align-items: center;
+}
+/* styling-for-banner */
+.banner{
+align-items: center;
+width: 75%;
+margin: 0 auto;
+gap: 60px;
+margin-top: 40px;
+}
+.banner-image{
+    width: 510px;
+height: 475px;
+    background-image: url(images/Circle\ design.svg);
+}
+.image{
+    transform: scale(0.92) translateY(30px) translateX(-20px);
+}
+.banner-heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+/* style for logoss section */
+.logos{
+    width: 80%;
+    margin: 0 auto;
+    gap: 95px;
+    margin-top: 70px ;
+padding-bottom: 28px;
+padding-top: 28px;
+    border-bottom: 1.5px solid rgba(192, 204, 218, 0.6);
+    border-top: 1.5px solid rgba(192, 204, 218, 0.6) ;
+}
+/* style-cards */
+.collection-card{
+    width: 310px;
+height: 520px;
+border-radius: 10px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+padding: 17px;
+}
+.collection-head{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+}
+.price{
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+/* .price:hover{
+visibility: hidden;
+} */
+ .card-image{
+    width: 13.07px;
+height: 13px;
+display: flex;
+align-items: center;
+ } 
+ .card-image:hover{
+    transform: scale(1.5);
+ }
+.collection-cards{
+    display: grid;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows:520px 520px 520px ;
+ gap: 70px;
+ width: 75%;
+ margin: 0 auto;
+ margin-bottom: 100px;
+}
+.collection-head-main{
+    text-align: center;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+/* featured-product-style */
+.featured-product{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+}
+.button-head{
+    width: 196px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.featured-product-main{
+    width: 75%;
+    margin: 0 auto;
+    gap: 50px;
+}
+/* style-for-footer */
+.footer{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 100px;
+    background-color: rgb(10, 8, 38) ;
+    height: 200px;
+}
+.footer-heading{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+}
+.copyright , .reserved {
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+}
+.footer-images{
+    filter: grayscale(100%);
+}
+.marme{
+    margin-right: 10px;
+}
+/* responsive-website */
